@@ -49,7 +49,7 @@ describe('validate login functionality', () =>{
        ci.enterPostalCode(data.PostalCode)
        
        ci.ClickOnContinue()
-       cy.wait(1000)
+       
        //finish page
        fi.clickOnFinish()
        
