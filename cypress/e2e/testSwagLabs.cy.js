@@ -47,7 +47,7 @@ describe('validate login functionality', () =>{
        ci.enterLastName(data.LastName)
        cy.wait(1000)
        ci.enterPostalCode(data.PostalCode)
-       cy.wait(1000)
+       
        ci.ClickOnContinue()
        cy.wait(1000)
        //finish page
